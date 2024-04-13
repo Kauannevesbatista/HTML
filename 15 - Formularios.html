@@ -1,0 +1,34 @@
+
+
+<!--
+    - Captura de dados 
+    - Input -> entrada
+
+    Action -> define para qual url sera enviado os dados, estando vazio envia para a mesma url
+    Method -> Metodo de envio / Exemplos a baixo:
+          - GET
+          - POST
+-->
+
+<form action=""  me>
+    <h1> Endereço para entrega</h1>
+    <br>
+    <label>
+        Rua:
+    <input type="text" name="rua" autocomplete="street-address">
+
+    </label>
+
+    
+<label>
+        Numero da casa:
+    <input type="number" name="Numero" >
+<br>
+<br>
+    <button type="submit"> Enviar dados </button>
+    </label>
+</form>
+
+
+<!-- para adicionar um input file e preciso adicionar o codigo enctpe na tag form / basicamente para avisar para o servidor que o site não ira enviar so dados e sim outros tipos de documentos tambem como fotos e videos 
+-->
